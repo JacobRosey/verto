@@ -56,7 +56,7 @@ export const TagPicker = ({ tags, activeTagId, onTagPage }: TagPickerProps) => {
         <button
           className={`${
             !isShowLessVisible ? "md:hidden" : "md:inline-block"
-          } active-pill group mb-2 ml-2 hidden cursor-pointer rounded-sm border px-2 py-1 transition-all hover:bg-primary hover:text-white`}
+          } active-pill group mb-2 ml-2 hidden cursor-pointer rounded-sm border px-2 py-1 transition-all hover:border-dashed hover:bg-primary/20 hover:text-white`}
           onClick={handleShowLess}
         >
           Show Less
@@ -67,7 +67,7 @@ export const TagPicker = ({ tags, activeTagId, onTagPage }: TagPickerProps) => {
       <div
         className={` ${
           isShowLessVisible && "overflow-y-scroll"
-        } overflow-hidden duration-300  ease-in-out md:max-h-[50dvh] ${
+        } overflow-hidden duration-300 ease-in-out md:max-h-[50dvh] ${
           isCollapsed ? "max-h-0" : "max-h-96"
         } ${isCollapsed ? "sm:max-h-full" : ""}`}
       >

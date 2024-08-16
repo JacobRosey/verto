@@ -4,12 +4,8 @@ const config = {
     avatar: "/static/images/luca_cavallin.png",
     job: "Software Engineer",
     company: "GitHub, Inc.",
-    email: "lu@cavall.in",
     github: "https://github.com/lucavallin",
     linkedin: "https://www.linkedin.com/in/lucavallin",
-    reddit: "https://reddit.com/u/lucavallin",
-    calendly: "https://calendly.com/lucavallin",
-    newsletter: "https://newsletter.lucavallin.com",
     website: "https://www.lucavall.in"
   },
   meta: {

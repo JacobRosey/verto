@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom-substack-widget+.success, .custom-substack-widget+.error {
-  font-family: var(--font-inter), sans-serif !important;
-  color: #cb3364 !important;
-  font-size: 0.875rem;
-}
-
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -28,9 +22,3 @@
 .active-pill > span {
   @apply text-primary;
 }
-
-#bmc-iframe {
-  min-height: 750px !important;
-  max-height: 750px !important;
-}
-
